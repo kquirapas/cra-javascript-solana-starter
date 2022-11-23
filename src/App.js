@@ -1,5 +1,4 @@
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import styles from "./styles/Home.css";
 
 // Default styles that can be overridden by your app
 require("@solana/wallet-adapter-react-ui/styles.css");
