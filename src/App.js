@@ -15,8 +15,8 @@ const Home = () => {
 
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.iconContainer}>
+      <div class="container">
+        <div class="iconContainer">
           <img
             src="/thirdweb.svg"
             height={75}
@@ -32,8 +32,8 @@ const Home = () => {
             alt="sol"
           />
         </div>
-        <h1 className={styles.h1}>Solana, meet thirdweb 👋</h1>
-        <p className={styles.explain}>
+        <h1 class="h1">Solana, meet thirdweb 👋</h1>
+        <p class="explain">
           Explore what you can do with thirdweb&rsquo;s brand new{" "}
           <b>
             <a
@@ -47,8 +47,9 @@ const Home = () => {
           </b>
           .
         </p>
-
-        <WalletMultiButton />
+        <div class="buttonContainer">
+          <WalletMultiButton style={{}} />
+        </div>
       </div>
     </>
   );
