@@ -40,7 +40,7 @@ const Home = () => {
               href="https://portal.thirdweb.com/solana"
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.lightPurple}
+              class="lightPurple"
             >
               Solana SDK
             </a>
