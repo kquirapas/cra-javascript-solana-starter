@@ -1,4 +1,5 @@
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import "./styles/Home.css";
 
 // Default styles that can be overridden by your app
 require("@solana/wallet-adapter-react-ui/styles.css");
@@ -14,8 +15,8 @@ const Home = () => {
 
   return (
     <>
-      <div class="container">
-        <div class="iconContainer">
+      <div className="container">
+        <div className="iconContainer">
           <img
             src="/thirdweb.svg"
             height={75}
@@ -31,22 +32,22 @@ const Home = () => {
             alt="sol"
           />
         </div>
-        <h1 class="h1">Solana, meet thirdweb 👋</h1>
-        <p class="explain">
+        <h1 className="h1">Solana, meet thirdweb 👋</h1>
+        <p className="explain">
           Explore what you can do with thirdweb&rsquo;s brand new{" "}
           <b>
             <a
               href="https://portal.thirdweb.com/solana"
               target="_blank"
               rel="noopener noreferrer"
-              class="lightPurple"
+              className="lightPurple"
             >
               Solana SDK
             </a>
           </b>
           .
         </p>
-        <div class="buttonContainer">
+        <div className="buttonContainer">
           <WalletMultiButton style={{}} />
         </div>
       </div>
